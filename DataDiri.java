@@ -10,4 +10,20 @@ public class DataDiri {
         this.npm = npm;
         this.kelas = kelas;
     }
+
+    
+    public void tampilkanData() {
+        System.out.println("Nama  : " + nama);
+        System.out.println("NPM   : " + npm);
+        System.out.println("Kelas : " + kelas);
+    }
 } 
+
+public class DataDiriBeraksi {
+    public static void main(String[] args) { 
+        DataDiri Agie = new DataDiri("Agie", "2310010659", "TI-4A");
+
+       
+        Agie.tampilkanData(); 
+    }
+}
